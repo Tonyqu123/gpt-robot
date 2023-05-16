@@ -1,0 +1,8 @@
+# chat
+POST http://localhost:5000/chat HTTP/1.1
+content-type: application/json
+
+{   
+    "content": "My second command is: sample(x = 1:100, size = 3)"
+}
+
